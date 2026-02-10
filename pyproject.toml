@@ -81,7 +81,7 @@ dev-pylint = [
   "frequenz-client-weather[dev-mkdocs,dev-noxfile,dev-pytest]",
 ]
 dev-pytest = [
-  "pytest == 8.3.4",
+  "pytest == 9.0.2",
   "pylint == 3.3.4",       # We need this to check for the examples
   "frequenz-repo-config[extra-lint-examples] == 0.12.3",
   "pytest-mock == 3.14.0",
