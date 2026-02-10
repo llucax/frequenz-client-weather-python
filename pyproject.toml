@@ -32,7 +32,7 @@ dependencies = [
   "googleapis-common-protos >= 1.56.4, < 2",
   "frequenz-channels >= 1.6.1, < 2",
   "frequenz-client-base >= 0.9.0, < 0.10",
-  "frequenz-api-weather >= 0.12.0, < 0.13.0",
+  "frequenz-api-weather >= 0.12.0, < 0.15.0",
 ]
 dynamic = ["version"]
 
