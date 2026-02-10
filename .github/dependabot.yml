@@ -38,21 +38,33 @@ updates:
           - "frequenz-api-weather"
           - "frequenz-client-base"
           - "frequenz-repo-config*"
+          - "frequenz-repo-config[extra-lint-examples]"
+          - "frequenz-repo-config[lib]"
           - "markdown-callouts"
           - "mkdocs-gen-files"
           - "mkdocs-literate-nav"
           - "mkdocstrings*"
+          - "mkdocstrings[python]"
           - "pydoclint"
           - "pytest-asyncio"
       # We group repo-config updates as it uses optional dependencies that are
       # considered different dependencies otherwise, and will create one PR for
       # each if we don't group them.
       repo-config:
+        update-types:
+          - "minor"
+          - "major"
         patterns:
           - "frequenz-repo-config*"
+          - "frequenz-repo-config[extra-lint-examples]"
+          - "frequenz-repo-config[lib]"
       mkdocstrings:
+        update-types:
+          - "minor"
+          - "major"
         patterns:
           - "mkdocstrings*"
+          - "mkdocstrings[python]"
 
   - package-ecosystem: "github-actions"
     directory: "/"
